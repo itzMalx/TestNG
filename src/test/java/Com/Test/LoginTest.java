@@ -8,13 +8,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
-public class Test {
+public class LoginTest{
 
     public WebDriver driver;
     public WebDriverWait wait;
@@ -55,6 +58,7 @@ public class Test {
     @Parameters({"username","password"})
     public void validCredentials(String username, String password) {
 
+        
         wait.until(ExpectedConditions.elementToBeClickable(loginLink)).click();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(usernameField)).sendKeys(username);
