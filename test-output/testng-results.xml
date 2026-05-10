@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-29T22:03:23 IST" name="Default suite" finished-at="2026-04-29T22:03:52 IST" duration-ms="29353">
+    <groups>
+    </groups>
+    <test started-at="2026-04-29T22:03:23 IST" name="Default test" finished-at="2026-04-29T22:03:52 IST" duration-ms="29353">
+      <class name="com.Test.LoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.LoginTest@141e5bef]" started-at="2026-04-29T22:03:24 IST" name="beforeMethod" finished-at="2026-04-29T22:03:29 IST" duration-ms="4818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.LoginTest@141e5bef]" started-at="2026-04-29T22:03:29 IST" name="InvalidLogin" data-provider="InvalidExcelData" finished-at="2026-04-29T22:03:32 IST" duration-ms="3042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.LoginTest@141e5bef]" started-at="2026-04-29T22:03:32 IST" name="afterMethod" finished-at="2026-04-29T22:03:33 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.LoginTest@141e5bef]" started-at="2026-04-29T22:03:33 IST" name="beforeMethod" finished-at="2026-04-29T22:03:36 IST" duration-ms="3669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.LoginTest@141e5bef]" started-at="2026-04-29T22:03:36 IST" name="InvalidLogin" data-provider="InvalidExcelData" finished-at="2026-04-29T22:03:43 IST" duration-ms="6091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhdvgs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.LoginTest@141e5bef]" started-at="2026-04-29T22:03:43 IST" name="afterMethod" finished-at="2026-04-29T22:03:43 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.LoginTest@141e5bef]" started-at="2026-04-29T22:03:43 IST" name="beforeMethod" finished-at="2026-04-29T22:03:47 IST" duration-ms="3495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ValidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.LoginTest@141e5bef]" started-at="2026-04-29T22:03:47 IST" name="ValidLogin" data-provider="ValidExcelData" finished-at="2026-04-29T22:03:52 IST" duration-ms="5447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.LoginTest@141e5bef]" started-at="2026-04-29T22:03:52 IST" name="afterMethod" finished-at="2026-04-29T22:03:52 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.Test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
