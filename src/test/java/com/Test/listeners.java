@@ -30,10 +30,6 @@ public class listeners implements ITestListener{
 		
 		WebElement element = BaseTest.get_Element();
 		
-//		if (driver == null) {
-//		    System.out.println("Driver is NULL → skipping screenshot");
-//		    return;
-//		}
 		
 		try {
 			
